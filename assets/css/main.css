@@ -575,8 +575,8 @@ h6 {
 # Global Page Titles & Breadcrumbs
 --------------------------------------------------------------*/
 .page-title {
-  color: var(--default-color);
-  background-color: var(--background-color);
+  color: var(--background-color);
+  background-color: var(--accent-color);
   position: relative;
 }
 
@@ -588,6 +588,7 @@ h6 {
 .page-title .heading h1 {
   font-size: 38px;
   font-weight: 700;
+  color: #ffff;
 }
 
 .page-title nav {
